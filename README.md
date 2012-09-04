@@ -5,8 +5,9 @@ This is the group for Go Go Power Rangers
 
 Steve
 --------------------
-NEVER HERE!
-HAS TO DO IT HIMSELF
+User: sdarby2000
+Email: sdarby2000@gmail.com
+Phone: 907-854-1200
 
 Kacey Cole
 ---------------------
