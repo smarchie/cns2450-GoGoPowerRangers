@@ -35,3 +35,10 @@ Cory Bartholomew
 User: <n/a>
 Email: cory.bartholomew22@gmail.com
 Phone: 801-368-5611
+
+
+Fernando Salazar
+--------------------
+User: fersal
+Email: fersal69@gmail.com
+Phone: 801-822-7281
