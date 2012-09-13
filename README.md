@@ -3,7 +3,7 @@ cns2450-GoGoPowerRangers
 
 This is the group for Go Go Power Rangers
 
-Steve
+Steve Darby
 --------------------
 User: sdarby2000
 Email: sdarby2000@gmail.com
@@ -32,7 +32,7 @@ Phone: 801-400-9070
 
 Cory Bartholomew
 --------------------
-User: <n/a>
+User: CoryBartholomew
 Email: cory.bartholomew22@gmail.com
 Phone: 801-368-5611
 
