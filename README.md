@@ -48,7 +48,7 @@ Requirements
 able to pull up the site on their Android device and receive a text message
 * Feature 4: History - User metrics will be saved from the time they begin using the site
 * Feature 5: Reports - Line graphs will show users their progress for each metric
-* Feature 6: Secure - Because their will be user names and passwords, the client has opted for a SSL 
+* Feature 6: Secure - Because there will be user names and passwords, the client has opted for a SSL 
 through GoDaddy.com
 
 Roadmap
