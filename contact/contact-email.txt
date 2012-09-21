@@ -1,0 +1,130 @@
+Rachael Beal derboink@gmail.com
+	
+Sep 19 (1 day ago)
+		
+to nick, Fernando, archieusa, Kacey, Stephen, Cory
+Hello again, Mr. Gentile.
+
+Our team has gotten together to discuss the requirements you gave us, and we have a few more follow up questions to make sure we are 
+heading in the right direction. After reviewing the President's Challenge: Adult Fit Test, we're wondering if this is really a workout
+ plan, or more of a "Fitness Tracker" to track the results of their fit test which they will complete on a weekly basis? You're looking
+ at giving the user the ability to set which day they wish to complete each particular metric, and then they mark the results once 
+they've completed it?
+
+Do you have a current hosting service, or will we need to find one for you?
+
+What regions should we expect users to sign up from? (Utah, local service) You'll need to take this into consideration with your 
+SMS gateway service which will take over routing the text message to the proper provider. There are two options:
+- 1. Pay for SMS gateway service
+- 2. If the area is limited, we can program which provider/SMS gateway to send the text message to, but it will require additional 
+maintenance as new cell providers are created. It will also have more maintenance if you choose to spread to a larger area.
+
+Additional follow-up questions are in red below.
+
+
+
+
+On Sat, Sep 15, 2012 at 10:22 PM, nick gentile <nickgentile2000@yahoo.com> wrote:
+
+    Hello, Team Power Rangers!  Thanks for your mail.  As you might know, here are the basics of what I'm looking for:
+
+        Needs to have a web interface the users can enter their weekly workout plan 
+
+        Needs to allow anonymous users to create an account  
+		--- We aren't entirely sure what you mean by "anonymous users". Since this is specifically set up to track information, 
+		there will need to be at least one identifier for each user (most likely their email address which will also function 
+		as their user ID). Therefore, we believe "anonymous" means that anyone can sign up for the site (no special invitation
+		 required).
+
+        Needs to have an android application that will notify the user they need to workout then shows them what that workout is for the day.   
+		--- Below, you said that notifications will be sent weekly. Would the weekly notification lay out their day to day plan 
+		(i.e. "This is your schedule for the week: Monday - Mile Walk; Tuesday - Push-Ups; Wednesday - Height, Weight, Waist 
+		Measurement; Thursday - Half Sit-Ups, Sit and Reach")? Also, to fulfill the Android requirement, we are planning on having the 
+		phone be notified via text message, as well as the user being able to pull the site up via the web on their Android. This would
+		 also allow cross over to other smart phone devices with an internet connection as well.
+         	Also, this is more effective because the functionality should not be affected by future Android releases, therefore it will not
+		 require ongoing support from us, which will reduce your overall cost.
+
+    4. Add a mechanism in the phone or webpage that allows the user to mark out which workout days he completed for the week.
+	--- (link in text message to open site and log them in) 
+
+    In terms of what I'd like you to track, please see the President's Challenge: Adult Fitness Test categories at adultfitnesstest.org.  
+Familiarize yourself with the test requirements and tracking data, and then build the program accordingly.  Thanks!.  Here is a link to a PDF 
+that specifically explains everything I'm looking for: http://www.adultfitnesstest.org/resources/datacollection.pdf
+
+    Also, please see my responses in blue below:
+
+
+    - NOTIFICATIONS
+        - How do you want users to be notified?
+    - text? (will allow for more than just Android users to participate) 
+		=== Text is great.
+    - What data do you want in the notification? 
+		=== I'm cool with whatever you feel is best. 
+			--- We could reminding them that it is a new week and that they have a full set of requirements to complete as well 
+			as reminding them to go to the site and schedule the next week.
+    - Should we allow them to opt in/out for text messaging? 
+		=== Yes.
+            - What do you want us to do if they have no phone? 
+		=== Snail mail. 
+			--- We would advise against this. Not only are you adding the extra expense of printing and mailing paper to your users, 
+			but you also run into the issue of when to mail the letters out to get them to your users in time to be of actual use, 
+			weird time zone issues (their schedule starts on Saturday, but they don't get their letter until Wednesday because they
+			 live on the East Coast instead of the West Coast), no mail on weekends and holidays, what will happen during high traffic
+			 postal times (such as Christmas), etc. Our suggestion is to use email. They are already going to be online to use the 
+			tracker, and we're wanting to use email as the user name anyway. Why not use that as the secondary contact if they don't 
+			list a cell phone number or choose to opt out of text messaging? As an added bonus, it is more environmentally friendly.
+
+    - What version of Android did you want us to focus on? 
+		=== the latest
+    - How often do you want notifications sent? 
+		=== weekly 
+			--- We'll have it set to send out the text or email every week on Saturday.
+    - USER / VIEW
+    - Will you be giving us a database of users? === Nope.
+    - What information do you want in the weekly history? === everything 
+		--- What we're thinking is basically recreating the PDF, and they will have the ability to move up and down weeks. If they navigate
+		 to a past week, it will populate the values in the boxes with what they originally entered. If they navigate to a future week, they
+		 will be able to calendar which activity(-ies) they would like to do each day of that week.
+
+		--- Do you want them to be able to change the values of the past weeks? (For example, they entered data wrong, and wanted to correct it?)
+
+
+        - Should they be able to go back further than a week? === yes.  Let's do the whole time they've been in the program.
+          - Do you only want to hold info for only one week? === No.  Hold it for the whole time they use the program.
+        - What data do you want displayed? === Everything. 
+		--- We'll display the data on the PDF on a weekly basis with the ability for the user to navigate to previous weeks.
+              - How do you want it displayed? === Line graphs. 
+			--- We're thinking that the metric being tracked (such as Mile Walk Time) will be in blue. When the user clicks on it, a line
+			 graph will be displayed showing the time for each week. The same would be done for all other metrics (Sit-Ups, Push-Ups, 
+			Heart Rate... etc). However, we get to the question of how you want to compare apples and oranges. For Aerobic Fitness, they get
+			 a choice of what they want to do each week. How do you want to compare the Mile Walked vs 1.5-Miles Run Time?
+
+        - Will you want to collect information that could require protection under privacy laws? === Yes.
+    - If so, that would require a security certificate to protect user data? ($70/yr GoDaddy) === GoDaddy it is, then.
+    - ADMIN
+        - Do you need administrative access to user data/accounts? === Yes. 
+		--- For admin rights, that would be to add/delete users, reset forgotten passwords, show trends (number of active/inactive users - 
+		with inactive being they haven't checked in for at least 2 weeks). Can you think of anything else you would need?
+
+            - What tools do you need for this access?
+                - Reports? === Yes. 
+			--- How do you want reports created for admin? Do you want the data compiled for all users (averages), or do you want to be 
+			able to look at individual user's graphs? Did you want these as line graphs as well? What do you plan on doing with the reports?
+			 (Knowing how you will use them will allow us to give you something useful)
+
+                - User administration? === Yes.
+                - Batch email/text messaging? === Yes.
+
+
+As we go along, we will most likely have more questions for you. Because of the schedules and locations of our team members, email is the best way for us 
+to communicate. Would email contact be acceptable for you? If not, what phone number would you like us to call you at?  
+	=== I'm super busy, too, so e-mail contact is definitely best.  I appreciate your help with my product! ;)  T
+		--- hank you for being willing to work so closely with us on this project! It will make it much easier for us to give you a product that 
+		will meet your needs.
+
+-- Go Go Power Rangers
+
+ 
+
+    Mr. Gentile 

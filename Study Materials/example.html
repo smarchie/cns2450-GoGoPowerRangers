@@ -1,0 +1,51 @@
+<DOCTYPE html> <!-- This tag tells the browser what language/version to expect. This references HTML 5 -->
+<html>
+	<head>
+		<title>Web Essentials Sample</title>
+		<script type="text/javascript">
+		function init(){
+			document.getElementById("smallHeading").style.visibility = "hidden";
+			showSmall = false;
+			showingCode = false;
+		}
+		
+		function styleCode(codeString){
+			
+			return codeString;
+		}
+		
+		function showCode(){
+			if (!showingCode){
+				codeString = document.getElementsByTagName('html')[0].innerHTML;
+				document.getElementById("code").appendChild(document.createTextNode(codeString));
+				showingCode = true;
+			}
+		}
+		
+		function swapHeadings(){
+			if (!showSmall){
+				document.getElementById("smallHeading").style.visibility = "visible";
+				document.getElementById("largeHeading").style.visibility = "hidden";
+				showSmall = true;
+			}
+			else{
+				document.getElementById("smallHeading").style.visibility = "hidden";
+				document.getElementById("largeHeading").style.visibility = "visible";
+				showSmall = false;
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<h1 id="largeHeading">A big heading</h1>
+		<h2 id="smallHeading">A small heading</h2>
+		<script type="text/javascript">
+			init();
+		</script>
+		<button type="button" onclick="swapHeadings()">Click me!</button>
+		
+		<br /><br />
+		<button type="button" onclick="showCode()">Click to show source in page</button>
+		<div id="code"
+	</body>
+</html>
