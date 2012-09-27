@@ -1,0 +1,99 @@
+Go Go Power Rangers
+
+=============
+
+Retrospective – 1 – 9/27/2012
+
+-------------------------------------------------
+
+Previous Iteration Goals (Note, add two spaces at the end of a line to make a return for this).
+
+
+* Decide on our database:  We crushed it.  Made it cry.  We completed it by a vote.  We chose MySQL.  Done.
+ 
+* Initial Requirement clarification:  We got our additional clarifications from our user.  We feel like we know what's up now, and we're ready to roll.  Done.
+
+* Language Training: This is still in progress.  A few of us are more up to speed on PHP and MySQL.
+
+* Hosting Domain Set up:  We chose PHP Fog.  This has yet to be done.  85% done.  Still need to sign up.
+
+* Framework Research and Choice:  Decision has been made for symfony.com  100% done and done.
+
+Things you did wrong:
+
+* Our initial communication was ambiguious which slowed us down - Rachael
+
+* Environment unforseen issues on fernando's computer - Fernando
+
+* Procrastinated too much on this project, saving everything til last day to do iteration - Richard
+
+* Trusted Stephen - Kacey
+
+* Could have put more time into training - Cory
+
+Things you did right:
+
+* We really good group communication using google docs, email and our meetings rock - Rachael
+
+* Youtube is a good teacher for our tutorials - Cory
+
+Goals for next Iteration:
+
+
+* Database ready to hold users data
+
+* Login Backend
+
+* User interface on the homepage
+
+* CSS
+
+Stories from last iteration:
+
+None
+
+Stories for this iteration:
+
+* <Story>: <Estimated Size>
+* CSS: 5
+
+* Homepage User interface Template: In progress already - 7
+
+* Login Backend: 4
+
+* Login Backend: 4
+
+* Database tables: 7
+
+* Database tables: 7
+
+* Documentation for Training: 3 ( kacey )
+
+* Training: 7 ( Cory - db )
+
+* Training: 7 ( Fernando - db )
+
+* Training: 7 ( Richard - login, PHP )
+
+* Training: 2 ( Rachael - web )
+
+* Come to Class at least 75% of the time ( Stephen )
+
+* Study: 10 ( Stephen, web essentials )
+
+User Interation:
+
+<Paste any email or txt communication, and type up any phone conversations you may have had>
+
+Email on <Email Date>:9/21/2012
+
+Please see my comments in blue. Thanks!
+Hello again, Mr. Gentile.
+
+Our team has gotten together to discuss the requirements you gave us, and we have a few more follow up questions to make sure we are heading in the right direction. After reviewing the President's Challenge: Adult Fit Test, we're wondering if this is really a workout plan, or more of a "Fitness Tracker" to track the results of their fit test which they will complete on a weekly basis? Yes, that works for me.  You're looking at giving the user the ability to set which day they wish to complete each particular metric Yes, and then they mark the results once they've completed it Yes?
+
+Do you have a current hosting service, or will we need to find one for you? Please find one.
+
+What regions should we expect users to sign up from? (Utah, local service) Yes You'll need to take this into consideration with your SMS gateway service which will take over routing the text message to the proper provider. There are two options:
+- 1. Pay for SMS gateway service Yes, let's pay for the service.
+- 2. If the area is limited, we can program which provider/SMS gateway to send the text message to, but it will require additional maintenance as new cell providers are created. It will also have more maintenance if you choose to spread to a larger area.
