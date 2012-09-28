@@ -50,11 +50,19 @@ Goals for next Iteration:
 
 Stories from last iteration:
 
-None
+* Web - completed - Rachael
+
+* Database research - completed - Fernando
+
+* Training PHP - completed - Richard
+
+* Training - completed - Cory
+
+* Login frontend - completed - Kacey
+
 
 Stories for this iteration:
 
-* <Story>: <Estimated Size>
 * CSS: 5
 
 * Homepage User interface Template: In progress already - 7
