@@ -50,15 +50,15 @@ Goals for next Iteration:
 
 Stories from last iteration:
 
-* Web - completed - Rachael
+* Web - completed - Rachael size = 3
 
-* Database research - completed - Fernando
+* Database research - completed - Fernando = size = 5
 
-* Training PHP - completed - Richard
+* Training PHP - completed - Richard - size = 8
 
-* Training - completed - Cory
+* Training - completed - Cory - size = 5
 
-* Login frontend - completed - Kacey
+* Login frontend - completed - Kacey - size = 3
 
 
 Stories for this iteration:
